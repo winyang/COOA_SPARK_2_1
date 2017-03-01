@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="aithink_spark_COOA:jar">
+    <output-path>$USER_HOME$/Documents/develop/spark</output-path>
+    <root id="archive" name="aithink_spark_COOA.jar">
+      <element id="module-output" name="aithink_spark_COOA" />
+    </root>
+  </artifact>
+</component>

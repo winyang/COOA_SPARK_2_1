@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../bqteam/app/spark-2.1.0-bin-hadoop2.7/jars" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../bqteam/app/spark-2.1.0-bin-hadoop2.7/jars" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/breeze_2.11-0.12-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../bqteam/app/spark-2.1.0-bin-hadoop2.7/jars" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../bqteam/app/spark-2.1.0-bin-hadoop2.7/jars" recursive="false" type="SOURCES" />
+  </library>
+</component>
