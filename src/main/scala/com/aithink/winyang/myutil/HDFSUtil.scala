@@ -46,6 +46,7 @@ class HDFSUtil extends Conf{
     spark.read.parquet(getParquetPath(tableName,path))
   }
 
+
   //直接从相应路径读取,只需要表名(不需要后缀)
   def getOriginalParquetFile(tableName:String): DataFrame = {
     getParquetFile(tableName,originalDataPath)
@@ -59,11 +60,15 @@ class HDFSUtil extends Conf{
     getParquetFile(tableName,resultDataPath)
   }
 
+
   def loadOriginalParquetFileAndCreateTempView(tableName:String):Unit={
     getOriginalParquetFile(tableName).createTempView(tableName)
   }
   def loadTestParquetFileAndCreateTempView(tableName:String):Unit= {
     getTestParquetFile(tableName).createTempView(tableName)
+  }
+  def loadResultParquetFileAndCreateTempView(tableName:String):Unit= {
+    getResultParquetFile(tableName).createTempView(tableName)
   }
 
   }
