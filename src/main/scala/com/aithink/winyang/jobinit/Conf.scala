@@ -7,7 +7,7 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
   * Created by winyang on 3/1/17.
   */
 trait Conf {
-  val spark:SparkSession = SparkSession.builder.appName("winyangApp").getOrCreate()
+  val spark:SparkSession = SparkSession.builder.appName("winyangApp").master("local").getOrCreate()
   //只能这样？
   val sc:SparkContext = spark.sparkContext
   //简化代码

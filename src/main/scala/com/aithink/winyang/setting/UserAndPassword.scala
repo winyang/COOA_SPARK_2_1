@@ -23,7 +23,7 @@ class UserAndPassword {
 
   //配置表
   private val mysqlConfigures = Map(
-    "ecustStudent_ecustStudent" -> sqlInfo("bbt_1", "bqteam110", "3306", "bbt_1", "192.168.0.90", "useUnicode=true&characterEncoding=utf8&useSSL=false")
+    "ecustStudent_ecustStudent" -> sqlInfo("ecustStudent", "winyang1994", "3306", "bbt_1", "c0108", "useUnicode=true&characterEncoding=utf8&useSSL=false")
   )
 
   private var mysqlConfigure: sqlInfo = mysqlConfigures("ecustStudent_ecustStudent")
